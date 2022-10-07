@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="mailto:Underground@gmail.com" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <meta name="copyright" content="Underground 2022. Sva prava zadržava." />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="shortcut icon" href="img/underground.jpg" type="image/x-icon" />
+    <title>Underground Gym</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark primary-font px-lg-5 px-md-3 px-2 position-absolute w-100"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="img/underground.jpg"
+            alt="logo"
+            class="img-fluid rounded-circle brand-logo"
+        /></a>
+        <a
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="d-lg-none d-md-block"
+        >
+          <iconify-icon
+            icon="ri:menu-2-line"
+            class="text-white fs-1"
+          ></iconify-icon>
+        </a>
+        <div
+          class="collapse navbar-collapse text-uppercase ms-lg-5 ms-1 mt-lg-0 mt-3"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#selection"
+                >OFFERS</a
+              >
+              <div class="underline"></div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+              <div class="underline"></div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trainers">Trainers</a>
+              <div class="underline"></div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Price</a>
+              <div class="underline"></div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+              <div class="underline"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="justify-content-end d-lg-flex d-none">
+          <div>
+            <a class="primary-btn" href="#">Join</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- COVER -->
+    <section id="cover">
+      <div
+        class="container-fluid h-100 d-flex align-items-end justify-content-center"
+      >
+        <div class="row cover-text-wrap">
+          <!-- <h1 class="primary-font text-center cover-text">
+            NOT YO<span>U</span>R<br />
+            TYPI<span>C</span>AL<br />
+            FIT<span>N</span>ESS
+          </h1> -->
+          <img
+            src="img/cover-text.png"
+            class="cover-text-img"
+            alt="cover text"
+          />
+          <p class="text-center fs-1 levitate my-4">
+            <a href="#selection" class="text-white"
+              ><iconify-icon icon="ep:arrow-down-bold"></iconify-icon
+            ></a>
+          </p>
+        </div>
+        <div class="cover-images">
+          <div class="dark-overlay-gradient"></div>
+          <img
+            src="img/cover-bodybilder.png"
+            alt="cover bodybuilder"
+            class="slide-in-bottom bodybuilder"
+          />
+          <img
+            src="img/underground.jpg"
+            alt="logo cover"
+            class="cover-logo rounded-circle slide-in-left"
+          />
+          <img
+            src="img/cover-decoration.png"
+            alt="ornament cover"
+            class="cover-ornament slide-in-right"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- selection -->
+    <section id="selection" class="py-5">
+      <div class="container">
+        <div class="row mt-4">
+          <div class="section-title d-flex justify-content-center">
+            <div class="position-relative">
+              <p class="primary-font text-center title-bg">GO!</p>
+              <img
+                src="img/plus-title.jpg"
+                alt="icon plus"
+                class="title-icon"
+              />
+              <div class="title-wrap">
+                <h2 class="text-font fw-bold text-white text-center display-5">
+                  DO IT YOURSELF!
+                </h2>
+                <p class="text-center text-white primary-font m-0">
+                  MAKE DIFFERENCE IN YOUR LIFE!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-4 p-lg-5 p-md-3 px-5 py-3">
+            <div class="position-relative">
+              <div class="service">
+                <img
+                  src="img/service-1.png"
+                  alt="service image"
+                  class="img-fluid"
+                />
+                <div class="service-overlay">
+                  <div class="p-3">
+                    <img src="img/service-icon-1.png" alt="service img" />
+                    <h4 class="primary-font text-white fw-bold mt-4">
+                      ONLINE<br />COACHING
+                    </h4>
+                    <div class="service-text-wrap">
+                      <p class="service-text primary-font text-white my-3">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Eligendi, expedita.
+                      </p>
+                    </div>
+                    <iconify-icon
+                      icon="fluent:arrow-right-20-regular"
+                      class="text-white service-icon"
+                    ></iconify-icon>
+                  </div>
+                </div>
+              </div>
+              <div class="overlay-border"></div>
+            </div>
+          </div>
+          <div class="col-sm-4 p-lg-5 p-md-3 px-5 py-3">
+            <div class="position-relative">
+              <div class="service">
+                <img
+                  src="img/service-2.png"
+                  alt="service image"
+                  class="img-fluid"
+                />
+                <div class="service-overlay">
+                  <div class="p-3">
+                    <img src="img/service-icon-2.png" alt="service img" />
+                    <h4 class="primary-font text-white fw-bold mt-4">
+                      ONLINE<br />COACHING
+                    </h4>
+                    <div class="service-text-wrap">
+                      <p class="service-text primary-font text-white my-3">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Eligendi, expedita.
+                      </p>
+                    </div>
+                    <iconify-icon
+                      icon="fluent:arrow-right-20-regular"
+                      class="text-white service-icon"
+                    ></iconify-icon>
+                  </div>
+                </div>
+              </div>
+              <div class="overlay-border"></div>
+            </div>
+          </div>
+          <div class="col-sm-4 p-lg-5 p-md-3 px-5 py-3">
+            <div class="position-relative">
+              <div class="service">
+                <img
+                  src="img/service-3.png"
+                  alt="service image"
+                  class="img-fluid"
+                />
+                <div class="service-overlay">
+                  <div class="p-3">
+                    <img src="img/service-icon-3.png" alt="service img" />
+                    <h4 class="primary-font text-white fw-bold mt-4">
+                      ONLINE<br />COACHING
+                    </h4>
+                    <div class="service-text-wrap">
+                      <p class="service-text primary-font text-white my-3">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Eligendi, expedita.
+                      </p>
+                    </div>
+                    <iconify-icon
+                      icon="fluent:arrow-right-20-regular"
+                      class="text-white service-icon"
+                    ></iconify-icon>
+                  </div>
+                </div>
+              </div>
+              <div class="overlay-border"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row mt-4 align-items-center">
+          <div class="col-sm-6 mb-sm-0 mb-4">
+            <div class="section-title d-flex justify-content-center">
+              <div class="position-relative">
+                <p class="primary-font text-center title-bg">ABOUT</p>
+                <img
+                  src="img/plus-title.jpg"
+                  alt="icon plus"
+                  class="title-icon"
+                />
+                <div class="title-wrap">
+                  <h2
+                    class="text-font fw-bold text-white text-center display-5"
+                  >
+                    OUR STORY
+                  </h2>
+                  <p class="text-center text-white primary-font m-0">
+                    WHERE IT ALL STARTED
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="about-text-wrap">
+                <p class="primary-font text-white mt-5">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Iusto obcaecati inventore nemo asperiores voluptates ipsam.
+                </p>
+                <p class="mt-4">
+                  <a class="primary-btn primary-font" href="#">Learn More</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 d-flex justify-content-center">
+            <div class="w-75 position-relative">
+              <img src="img/about-img.png" alt="about" class="img-fluid" />
+              <div class="about-lines"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROMO -->
+    <section id="promo">
+      <div class="dark-overlay"></div>
+      <a
+        href="#"
+        class="playbutton"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        <iconify-icon icon="ph:play-thin" class="play-icon"></iconify-icon>
+      </a>
+    </section>
+    <!-- TEAM -->
+    <section id="trainers" class="py-5">
+      <div class="container">
+        <div class="row mt-4">
+          <div class="section-title d-flex justify-content-center">
+            <div class="position-relative">
+              <p class="primary-font text-center title-bg">TEAM</p>
+              <img
+                src="img/plus-title.jpg"
+                alt="icon plus"
+                class="title-icon"
+              />
+              <div class="title-wrap">
+                <h2 class="text-font fw-bold text-white text-center display-5">
+                  MEET OUR TRAINERS
+                </h2>
+                <p class="text-center text-white primary-font m-0">
+                  TRAINERS WITH YEARS OF EXPERIENCE
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-4 px-lg-5 px-md-2 px-5 trainer">
+            <div class="trainer-img-wrap">
+              <div class="trainer-img-lines"></div>
+              <img src="img/trainer-1.png" alt="trainer" class="img-fluid" />
+            </div>
+            <p class="primary-font text-white text-uppercase mt-3 mb-0">
+              BODYBUILDING COACH
+            </p>
+            <h6 class="secondary-font text-white text-uppercase m-0 fw-bold">
+              NENAD TASIĆ
+            </h6>
+            <p class="mt-2">
+              <a href="#" class="text-white text-decoration-none me-2"
+                ><iconify-icon
+                  icon="simple-line-icons:social-instagram"
+                ></iconify-icon
+              ></a>
+              <a href="#" class="text-white text-decoration-none me-2"
+                ><iconify-icon
+                  icon="simple-line-icons:social-facebook"
+                ></iconify-icon
+              ></a>
+              <a href="#" class="text-white text-decoration-none me-2"
+                ><iconify-icon
+                  icon="simple-line-icons:social-twitter"
+                ></iconify-icon
+              ></a>
+            </p>
+          </div>
+          <div class="col-sm-4 px-lg-5 px-md-2 px-5 trainer">
+            <div class="trainer-img-wrap">
+              <div class="trainer-img-lines"></div>
+              <img src="img/trainer-2.png" alt="trainer" class="img-fluid" />
+            </div>
+            <p class="primary-font text-white text-uppercase mt-3 mb-0">
+              BODYBUILDING COACH
+            </p>
+            <h6 class="secondary-font text-white text-uppercase m-0 fw-bold">
+              NENAD TASIĆ
+            </h6>
+            <p class="mt-2">
+              <a href="#" class="text-white text-decoration-none me-2"
+                ><iconify-icon
+                  icon="simple-line-icons:social-instagram"
+                ></iconify-icon
+              ></a>
+              <a href="#" class="text-white text-decoration-none me-2"
+                ><iconify-icon
+                  icon="simple-line-icons:social-facebook"
+                ></iconify-icon
+              ></a>
+              <a href="#" class="text-white text-decoration-none me-2"
+                ><iconify-icon
+                  icon="simple-line-icons:social-twitter"
+                ></iconify-icon
+              ></a>
+            </p>
+          </div>
+          <div class="col-sm-4 px-lg-5 px-md-2 px-5 trainer">
+            <div class="trainer-img-wrap">
+              <div class="trainer-img-lines"></div>
+              <img src="img/trainer-3.png" alt="trainer" class="img-fluid" />
+            </div>
+            <p class="primary-font text-white text-uppercase mt-3 mb-0">
+              BODYBUILDING COACH
+            </p>
+            <h6 class="secondary-font text-white text-uppercase m-0 fw-bold">
+              NENAD TASIĆ
+            </h6>
+            <p class="mt-2">
+              <a href="#" class="text-white text-decoration-none me-2"
+                ><iconify-icon
+                  icon="simple-line-icons:social-instagram"
+                ></iconify-icon
+              ></a>
+              <a href="#" class="text-white text-decoration-none me-2"
+                ><iconify-icon
+                  icon="simple-line-icons:social-facebook"
+                ></iconify-icon
+              ></a>
+              <a href="#" class="text-white text-decoration-none me-2"
+                ><iconify-icon
+                  icon="simple-line-icons:social-twitter"
+                ></iconify-icon
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- GALLERY -->
+    <section id="gallery">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 p-0">
+            <img src="img/gallery-1.png" alt="gallery img" class="img-fluid" />
+          </div>
+          <div class="col-sm-3 col-6 p-0">
+            <img src="img/gallery-2.png" alt="gallery img" class="img-fluid" />
+          </div>
+          <div class="col-sm-3 col-6 p-0">
+            <img src="img/gallery-3.png" alt="gallery img" class="img-fluid" />
+          </div>
+          <div class="col-sm-3 col-6 p-0">
+            <img src="img/gallery-4.png" alt="gallery img" class="img-fluid" />
+          </div>
+          <div class="col-sm-3 col-6 p-0">
+            <img src="img/gallery-5.png" alt="gallery img" class="img-fluid" />
+          </div>
+          <div class="col-sm-6 p-0">
+            <img src="img/gallery-6.png" alt="gallery img" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PRICE -->
+    <section id="pricing" class="py-5">
+      <div class="container py-5">
+        <div class="row mt-4">
+          <div class="section-title d-flex justify-content-center">
+            <div class="position-relative">
+              <p class="primary-font text-center title-bg">PRICE</p>
+              <img
+                src="img/plus-title.jpg"
+                alt="icon plus"
+                class="title-icon"
+              />
+              <div class="title-wrap">
+                <h2 class="text-font fw-bold text-white text-center display-5">
+                  PRICING PLANS
+                </h2>
+                <p class="text-center text-white primary-font m-0">
+                  CHOOSE THE OFFER THAT SUITS YOU
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-4 px-lg-4 px-md-2 px-4">
+            <div class="price py-5">
+              <div class="pricing-wrap">
+                <h4 class="primary-font text-white text-uppercase fw-bold">
+                  INDIVIDUAL
+                </h4>
+                <h2
+                  class="display-4 primary-font text-white text-uppercase fw-bold"
+                >
+                  $50
+                  <span class="fw-light text-muted fs-6 text-lowercase">
+                    / per month
+                  </span>
+                </h2>
+                <p
+                  class="text-muted primary-font d-flex align-items-center m-0 mt-4"
+                >
+                  <iconify-icon
+                    icon="ci:check"
+                    class="text-white fs-2 me-3"
+                  ></iconify-icon>
+                  Consectetur elit.
+                </p>
+                <p
+                  class="text-muted primary-font d-flex align-items-center m-0 mt-2"
+                >
+                  <iconify-icon
+                    icon="ci:check"
+                    class="text-white fs-2 me-3"
+                  ></iconify-icon>
+                  Consectetur elit.
+                </p>
+                <p
+                  class="text-muted primary-font d-flex align-items-center m-0 mt-2"
+                >
+                  <iconify-icon
+                    icon="ci:check"
+                    class="text-white fs-2 me-3"
+                  ></iconify-icon>
+                  Consectetur elit.
+                </p>
+                <p
+                  class="text-muted primary-font d-flex align-items-center m-0 mt-2 mb-4"
+                >
+                  <iconify-icon
+                    icon="ci:check"
+                    class="text-white fs-2 me-3"
+                  ></iconify-icon>
+                  Consectetur elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 px-lg-4 px-md-2 px-4 my-sm-0 my-4">
+            <div class="price py-5">
+              <div class="pricing-wrap">
+                <h4 class="primary-font text-white text-uppercase fw-bold">
+                  INDIVIDUAL
+                </h4>
+                <h2
+                  class="display-4 primary-font text-white text-uppercase fw-bold"
+                >
+                  $50
+                  <span class="fw-light text-muted fs-6 text-lowercase">
+                    / per month
+                  </span>
+                </h2>
+                <p
+                  class="text-muted primary-font d-flex align-items-center m-0 mt-4"
+                >
+                  <iconify-icon
+                    icon="ci:check"
+                    class="text-white fs-2 me-3"
+                  ></iconify-icon>
+                  Consectetur elit.
+                </p>
+                <p
+                  class="text-muted primary-font d-flex align-items-center m-0 mt-2"
+                >
+                  <iconify-icon
+                    icon="ci:check"
+                    class="text-white fs-2 me-3"
+                  ></iconify-icon>
+                  Consectetur elit.
+                </p>
+                <p
+                  class="text-muted primary-font d-flex align-items-center m-0 mt-2"
+                >
+                  <iconify-icon
+                    icon="ci:check"
+                    class="text-white fs-2 me-3"
+                  ></iconify-icon>
+                  Consectetur elit.
+                </p>
+                <p
+                  class="text-muted primary-font d-flex align-items-center m-0 mt-2 mb-4"
+                >
+                  <iconify-icon
+                    icon="ci:check"
+                    class="text-white fs-2 me-3"
+                  ></iconify-icon>
+                  Consectetur elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 px-lg-4 px-md-2 px-4">
+            <div class="price py-5">
+              <div class="pricing-wrap">
+                <h4 class="primary-font text-white text-uppercase fw-bold">
+                  INDIVIDUAL
+                </h4>
+                <h2
+                  class="display-4 primary-font text-white text-uppercase fw-bold"
+                >
+                  $50
+                  <span class="fw-light text-muted fs-6 text-lowercase">
+                    / per month
+                  </span>
+                </h2>
+                <p
+                  class="text-muted primary-font d-flex align-items-center m-0 mt-4"
+                >
+                  <iconify-icon
+                    icon="ci:check"
+                    class="text-white fs-2 me-3"
+                  ></iconify-icon>
+                  Consectetur elit.
+                </p>
+                <p
+                  class="text-muted primary-font d-flex align-items-center m-0 mt-2"
+                >
+                  <iconify-icon
+                    icon="ci:check"
+                    class="text-white fs-2 me-3"
+                  ></iconify-icon>
+                  Consectetur elit.
+                </p>
+                <p
+                  class="text-muted primary-font d-flex align-items-center m-0 mt-2"
+                >
+                  <iconify-icon
+                    icon="ci:check"
+                    class="text-white fs-2 me-3"
+                  ></iconify-icon>
+                  Consectetur elit.
+                </p>
+                <p
+                  class="text-muted primary-font d-flex align-items-center m-0 mt-2 mb-4"
+                >
+                  <iconify-icon
+                    icon="ci:check"
+                    class="text-white fs-2 me-3"
+                  ></iconify-icon>
+                  Consectetur elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact" class="py-5">
+      <div class="container pt-4">
+        <div class="row align-items-center">
+          <div class="col-sm-6">
+            <div class="section-title d-flex contact-title">
+              <div class="position-relative">
+                <p class="primary-font text-center title-bg">START</p>
+                <img
+                  src="img/plus-title.jpg"
+                  alt="icon plus"
+                  class="title-icon"
+                />
+                <div class="title-wrap">
+                  <h2
+                    class="text-font fw-bold text-white text-center display-5"
+                  >
+                    CONTACT US
+                  </h2>
+                  <p class="text-center text-white primary-font m-0">
+                    FEEL FREE TO SEND US MESSAGE!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <h5 class="primary-font text-white text-uppercase mt-5">ADRESA</h5>
+            <p class="text-white primary-font">Ub,Vuka Karadzića 12</p>
+            <div class="row">
+              <div class="col-6">
+                <h5 class="primary-font text-white text-uppercase">ADRESA</h5>
+                <p class="text-white primary-font m-0">Ub,Vuka Karadzića 12</p>
+              </div>
+              <div class="col-6">
+                <h5 class="primary-font text-white text-uppercase">ADRESA</h5>
+                <p class="text-white primary-font">Ub,Vuka Karadzića 12</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <form action="#">
+              <div class="row">
+                <div class="col-6">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Name"
+                    class="form-input"
+                  />
+                </div>
+                <div class="col-6">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Name"
+                    class="form-input"
+                  />
+                </div>
+                <div class="col-12 mt-4">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Message..."
+                    class="form-input"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+              </div>
+              <input type="submit" value="Submit" class="primary-btn mt-3" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="primary-font text-white">ABOUT</h5>
+            <p class="primary-font text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              voluptas earum quae.
+            </p>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="primary-font text-white">WORKING HOURS</h5>
+            <p class="primary-font text-white m-0">Monday - Friday</p>
+            <p class="primary-font text-white">10:00 - 23:00</p>
+            <p class="primary-font text-white m-0">Saturday - Sunday</p>
+            <p class="primary-font text-white">10:00 - 5:00</p>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="primary-font text-white">LOCATION</h5>
+            <p class="primary-font text-white m-0">Vuka Karadzića 12</p>
+            <p class="primary-font text-white">contact@gmail.com</p>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="primary-font text-white">START NOW</h5>
+            <p class="primary-font text-white m-0">
+              <a href="#" class="text-decoration-none text-white">Facebook</a>
+            </p>
+            <p class="primary-font text-white m-0">
+              <a href="#" class="text-decoration-none text-white">Instagram</a>
+            </p>
+            <p class="primary-font text-white m-0">
+              <a href="#" class="text-decoration-none text-white">Mail</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title text-white primary-font text-uppercase"
+              id="exampleModalLabel"
+            >
+              Promo video
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <iframe
+              class="w-100 modal-video"
+              src="https://www.youtube.com/embed/PYNR9OdNJD4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn primary-btn"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Iconify Design -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    <!-- Boostrap 5 JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
